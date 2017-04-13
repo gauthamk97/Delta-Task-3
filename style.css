@@ -1,0 +1,21 @@
+#overallContainer {
+	text-align: center;
+}
+
+.containerDiv {
+	vertical-align: middle;
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    /*text-align: center;*/
+}
+
+input {
+	width: 165px;
+	margin-top: 1px;
+}
+
+#errorMessage {
+	text-align: center;
+	color: red;
+}
