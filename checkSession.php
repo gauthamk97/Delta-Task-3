@@ -5,7 +5,7 @@
 
 	if (! isset($_SESSION['loginID'])) {
 		mysqli_close($conn);
-		header("Location: login.php");
+		header("Location: index.php");
 	}
 
 	else {
